@@ -589,3 +589,5 @@ void CliffordSynthesizer::removeRedundantGates() {
   results.setSingleQubitGates(reducedResult.getNsingleQubitOps());
 }
 } // namespace cs
+
+// touched to exercise the reusable-cpp-ci.yml umbrella workflow
